@@ -1,6 +1,20 @@
 {
   "importMap": ".vscode/resolve_npm_imports.json",
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ]
+  },
+  "deploy": {
+    "project": "ee07c718-d2be-4b15-bd1c-dc8404859221",
+    "exclude": [],
+    "include": [
+      "build",
+      "public"
+    ],
+    "entrypoint": "build/index.js"
   }
 }

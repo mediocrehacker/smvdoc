@@ -4,8 +4,8 @@ import maria from "../imgs/maria.jpg";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Соснина Мария Викторовна" },
+    { name: "description", content: "Соснина Мария Викторовна, врач-психотерапевт, клинический психолог, практика с 2004г." },
   ];
 };
 
