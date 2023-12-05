@@ -7,8 +7,8 @@ module.exports = {
   serverMainFields: ["module", "main"],
   serverModuleFormat: "esm",
   serverPlatform: "neutral",
-  // appDirectory: "app",
-  // assetsBuildDirectory: "public/build",
+  appDirectory: "app",
+  assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
   // serverBuildPath: "build/index.js",
 };
