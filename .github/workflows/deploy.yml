@@ -34,6 +34,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "sour-chicken-97"
+          project: "smvdoc"
           entrypoint: "index.js" # 📝 Update the entrypoint if necessary
           root: "build" # 📝 Update the root if necessary
